@@ -1,0 +1,52 @@
+#Nav {display: none; text-align: center;}
+#Nav, #Nav ul, #Nav ul ul {position: fixed; right: 0; width: 100%; text-transform: lowercase; }
+#Nav {bottom: 0px; background-color: #808383; z-index: 999; }
+	#Nav li {padding: 0.77em 20px; list-style: none; text-align: right;}
+	#Nav > li {display: inline-block}
+		#Nav li a {font-size: 1.9em;color: #fff; text-decoration: none; display: block;}
+			#Nav li a:hover, #Nav li.current a, #Nav li.section a {color: #FFCC33;}
+				#Nav li.current li.link a, #Nav li.section  li.link  a {color: #D3D4B6;}
+				#Nav li.current li.link a:hover, #Nav li.section  li.link  a:hover {color: #000;}
+	#Nav ul {bottom: 3.9em; background-color: #298599; width: 100%; display: none; position: absolute; padding-top: 7px; left: 0px;}
+		#Nav ul li { display: block; float: none; text-align: left; }
+			#Nav ul li.first {}
+			#Nav ul li a {font-size: 1.2em;color: #D3D4B6; padding: 0.34em 20px;}
+				#Nav ul li a:hover, #Nav ul li.current > a, #Nav ul li.section > a {color: #FFCC33;}
+
+	#Nav li .hasCSSHover {display: block;}
+
+.mobileBrowsing #Nav, .mobileBrowsing #Nav ul, .mobileBrowsing #Nav ul ul {
+	position: relative!important;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: auto;
+	bottom: auto;
+	padding: 0px!important;
+	border-top-left: 0px;
+}
+.mobileBrowsing #Nav ul, .mobileBrowsing #Nav ul ul {
+	margin: 0px!important;
+}
+.mobileBrowsing #Nav li, .mobileBrowsing #Nav ul li, .mobileBrowsing #Nav ul ul li{
+	float: none;
+	width: auto;
+	display: block;
+}
+
+.mobileBrowsing #Nav ul{display: none;}
+
+.mobileBrowsing #Nav li.section ul, .mobileBrowsing #Nav li.current ul {
+	display: block;
+	border-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	border-top-left-radius: 0px;
+}
+
+.mobileBrowsing #Nav a{
+	display: block;
+	padding: 0!important;
+}
+
+
+.mobileBrowsing #Nav{margin-bottom: 30px;}
+

@@ -1,0 +1,158 @@
+.typography form{padding: 1em 0; clear:right;}
+	.typography fieldset{}
+		.typography div.field {}
+
+	.typography label {font-size: 0.8em;}
+	.typography li label, .typography p label {font-size: 0.8em;}
+		.typography label.FormHeading{display: block; color: #808383; font-weight: bold; margin-bottom: 1em;}
+		.typography label.left{float: left; display: block; width: 270px; border-top: 1px solid #D3D4B6;}
+			.typography .dropdown label.left{padding-bottom: 3px;}
+			.typography .optionset label.left, .typography .checkboxset label.left{border: 0;}
+
+	.typography .field{width: 100%; padding-bottom: 0.8em;padding-top: 0.8em; clear: left;}
+		.typography .middleColumn, .typography .Actions,.typography input.action, .typography p.ForgotPassword, .typography p.checkbox {display: block; margin-left: 270px;}
+			.typography .middleColumn input, .typography .middleColumn textarea, .typography .middleColumn select{border: 1px solid #D3D4B6; width: 370px; padding: 3px; font-family: Arial, Verdana, sans-serif; margin-top: 0px}
+			.typography .middleColumn textarea{margin-top: 0px;}
+			.typography .middleColumn ul{margin-left: 0!important; padding-left: 0!important; margin-top: 0px; padding-top: 0px;}
+			.typography .middleColumn li{list-style: none!important; margin-top: 0px; padding-top: 0px;}
+
+		.typography .middleColumn .radio, .typography .middleColumn .checkbox,
+		.typography .middleColumn .radio:hover, .typography .middleColumn .checkbox:hover,
+		.typography .middleColumn .radio:focus, .typography .middleColumn .checkbox:focus{border: 0;}
+
+		.typography .Actions{}
+
+		.typography .message{font-weight: bold; background-color: #FFCC33; display: block;padding: 4px; text-align: center; border-bottom: 1px solid #D3D4B6;
+
+-moz-border-radius-bottomright: 5px; border-bottom-right-radius: 5px;
+
+		}
+		.typography .middleColumn .message{width: 368px; }
+
+.typography label.required {display: block; color: #298599; font-size: 0.8em;}
+
+/* exceptions */
+.typography .radio, .typography .checkbox{width: auto!important;}
+.typography .checkbox  label.right {display: block; margin-left: 0px; width: 350px; font-size: 1em; text-align: left; line-height: 1;}
+.typography .checkbox  input {float: left; margin-top: 0px;}
+
+.typography .confirmedpassword .middleColumn {margin-left: 0px;}
+.typography .confirmedpassword .middleColumn a{display: block; margin-left: 270px; width: 376px}
+.typography .confirmedpassword .middleColumn .middleColumn {margin-left: 120px;}
+
+.typography .fieldgroup .middleColumn {margin-left: 0px;}
+
+.typography .field span.message {margin-left: 270px; width: 370px; font-size: 0.8em; margin-top: 7px;}
+.typography .field .middleColumn .message {margin-left: 0px; width: 370px; }
+.typography span.bad, .typography span.required {color: #FF336D;}
+.typography span.good, .typography span.good {background-color: #298599; color: #fff;}
+
+.typography label.right {display: block; margin-left: 270px; width: 370px; font-size: 0.8em}
+
+/* BUTTON */
+.typography .Actions input, .typography input.action  {
+	padding-right: 20px;
+}
+.typography .middleColumn input:focus, .typography .middleColumn textarea:focus, .typography .middleColumn select:focus{
+	-webkit-box-shadow: 0px 0px 5px #FFCC33;
+	-moz-box-shadow: 0px 0px 5px #FFCC33;
+	box-shadow: 0px 0px 5px #FFCC33;
+}
+
+.typography .Actions input.action {margin-left: 0px;}
+
+
+
+
+/* shadow */
+input[type=text], input[type=password], textarea, select {
+-moz-border-radius-bottomright: 5px; border-bottom-right-radius: 5px;
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#D3D4B6')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#D3D4B6');
+}
+input[type=text]:hover, input[type=password]:hover, textarea:hover, select:hover {
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+
+}
+
+
+.optionset .middleColumn ul, .checkboxset .middleColumn ul {
+	-moz-column-width: 14em;
+	-webkit-column-width: 14em;
+	column-width: 14em;
+}
+
+.readonly .middleColumn span {display: block; border: 1px solid #D3D4B6; width: 370px; padding: 3px; font-family: Arial, Verdana, sans-serif;}
+
+
+
+
+.typography .action, .typography .Actions input, .typography input.action
+  {
+	color: #808383;
+	padding: 10px;
+	background: -moz-linear-gradient(
+		top,
+		#ffffff 0%,
+		#cfd4d4
+	);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#ffffff),
+		to(#cfd4d4)
+	);
+	border-radius: 5px 3px 15px 5px;
+	-moz-border-radius: 5px 3px 15px 5px;
+	-webkit-border-radius: 5px 3px 15px 5px;
+	border: 1px solid #808383;
+	text-decoration: none!important;
+	padding-right: 17px!important;
+	color: #808383;
+}
+.typography .action:hover, .typography .Actions input:hover, .typography input.action:hover {
+	background: -moz-linear-gradient(
+		top,
+		#ffffff 0%,
+		#ffcc33
+	);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#ffffff),
+		to(#ffcc33)
+	);
+	border: 1px solid #808383;
+	color: #808383;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	text-decoration: none;
+}
+
+.mobileBrowsing form{width: 100%!important; margin-left: auto; margin-right: auto;}
+.mobileBrowsing .typography label {float: none!important; border: none!important;width: 95%!important; }
+.mobileBrowsing .middleColumn {margin-left: 0px!important;}
+.mobileBrowsing .typography .field span.message {margin-left: 0px!important; width: 95%;}
+.mobileBrowsing .typography label.right {margin-left: 0px!important; width: 95%;}
+
+.mobileBrowsing .typography .middleColumn input,
+	.mobileBrowsing .typography .middleColumn textarea,
+	.mobileBrowsing .typography .middleColumn select {width: 95%;}
+.mobileBrowsing .typography .middleColumn .message {width: 95%;}
+.mobileBrowsing .typography .confirmedpassword .middleColumn a {width: 95%;}
+.mobileBrowsing .readonly .middleColumn span {width: 95%;}
+
+.mobileBrowsing .typography .middleColumn,
+	.mobileBrowsing .typography .Actions,
+	.mobileBrowsing .typography input.action,
+	.mobileBrowsing .typography p.ForgotPassword,
+	.mobileBrowsing .typography p.checkbox {margin-left: 0px!important;}
