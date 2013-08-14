@@ -3,7 +3,7 @@
 <div class="sidebarBox" id="SidebarChildren">
 	<h3>In the <i>$MenuTitle</i> section</h3>
 	<ul>
-		<% control Children %><li class="$FirstLast $LinkingMode"><a href="$Link">$MenuTitle</a></li><% end_control %>
+		<% loop Children %><li class="$FirstLast $LinkingMode"><a href="$Link">$MenuTitle</a></li><% end_loop %>
 	</ul>
 </div>
 <% end_if %>
@@ -11,9 +11,9 @@
 <% if Siblings %>
 <div class="sidebarBox" id="SidebarSiblings">
 	<h3>Related pages</h3>
-	<% if Parent %><p class="parentPageInfo">Other pages in the <% control Parent %><a href="$Link">$Title</a><% end_control %> section.</p><% end_if %>
+	<% if Parent %><p class="parentPageInfo">Other pages in the <% with Parent %><a href="$Link">$Title</a><% end_with %> section.</p><% end_if %>
 	<ul>
-		<% control Siblings %><li class="$FirstLast $LinkingMode"><a href="$Link">$MenuTitle</a></li><% end_control %>
+		<% loop Siblings %><li class="$FirstLast $LinkingMode"><a href="$Link">$MenuTitle</a></li><% end_loop %>
 	</ul>
 </div>
 <% end_if %>

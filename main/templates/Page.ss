@@ -20,7 +20,6 @@
 			</div>
 		</div>
 	</div>
-	<% include ShareThis %>
 </div>
 <% include TemplateOverviewPageDevelopmentFooter %>
 <% include Analytics %>

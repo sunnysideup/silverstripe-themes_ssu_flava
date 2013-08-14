@@ -1,17 +1,17 @@
-.typography form{padding: 1em 0; clear:right;}
+.typography form{padding: 1em 0; clear:right; width: 100%!important; margin-left: auto; margin-right: auto;}
 	.typography fieldset{}
 		.typography div.field {}
 
-	.typography label {font-size: 0.8em;}
+	.typography label {font-size: 0.8em;width: 95%;}
 	.typography li label, .typography p label {font-size: 0.8em;}
 		.typography label.FormHeading{display: block; color: #808383; font-weight: bold; margin-bottom: 1em;}
-		.typography label.left{float: left; display: block; width: 270px; border-top: 1px solid #D3D4B6;}
+		.typography label.left{display: block; }
 			.typography .dropdown label.left{padding-bottom: 3px;}
 			.typography .optionset label.left, .typography .checkboxset label.left{border: 0;}
 
 	.typography .field{width: 100%; padding-bottom: 0.8em;padding-top: 0.8em; clear: left;}
-		.typography .middleColumn, .typography .Actions,.typography input.action, .typography p.ForgotPassword, .typography p.checkbox {display: block; margin-left: 270px;}
-			.typography .middleColumn input, .typography .middleColumn textarea, .typography .middleColumn select{border: 1px solid #D3D4B6; width: 370px; padding: 3px; font-family: Arial, Verdana, sans-serif; margin-top: 0px}
+		.typography .middleColumn, .typography .Actions,.typography input.action, .typography p.ForgotPassword, .typography p.checkbox {display: block; }
+			.typography .middleColumn input, .typography .middleColumn textarea, .typography .middleColumn select{border: 1px solid #D3D4B6; padding: 3px; font-family: Arial, Verdana, sans-serif; margin-top: 0px; width: 98%;}
 			.typography .middleColumn textarea{margin-top: 0px;}
 			.typography .middleColumn ul{margin-left: 0!important; padding-left: 0!important; margin-top: 0px; padding-top: 0px;}
 			.typography .middleColumn li{list-style: none!important; margin-top: 0px; padding-top: 0px;}
@@ -27,27 +27,27 @@
 -moz-border-radius-bottomright: 5px; border-bottom-right-radius: 5px;
 
 		}
-		.typography .middleColumn .message{width: 368px; }
+		.typography .middleColumn .message{}
 
 .typography label.required {display: block; color: #298599; font-size: 0.8em;}
 
 /* exceptions */
 .typography .radio, .typography .checkbox{width: auto!important;}
-.typography .checkbox  label.right {display: block; margin-left: 0px; width: 350px; font-size: 1em; text-align: left; line-height: 1;}
+.typography .checkbox  label.right {display: block; margin-left: 0px; font-size: 1em; text-align: left; line-height: 1;}
 .typography .checkbox  input {float: left; margin-top: 0px;}
 
 .typography .confirmedpassword .middleColumn {margin-left: 0px;}
-.typography .confirmedpassword .middleColumn a{display: block; margin-left: 270px; width: 376px}
+.typography .confirmedpassword .middleColumn a{display: block; }
 .typography .confirmedpassword .middleColumn .middleColumn {margin-left: 120px;}
 
 .typography .fieldgroup .middleColumn {margin-left: 0px;}
 
-.typography .field span.message {margin-left: 270px; width: 370px; font-size: 0.8em; margin-top: 7px;}
-.typography .field .middleColumn .message {margin-left: 0px; width: 370px; }
+.typography .field span.message {font-size: 0.8em; margin-top: 7px;display: block;}
+.typography .field .middleColumn .message {margin-left: 0px;  }
 .typography span.bad, .typography span.required {color: #FF336D;}
 .typography span.good, .typography span.good {background-color: #298599; color: #fff;}
 
-.typography label.right {display: block; margin-left: 270px; width: 370px; font-size: 0.8em}
+.typography label.right {display: block; font-size: 0.8em}
 
 /* BUTTON */
 .typography .Actions input, .typography input.action  {
@@ -89,7 +89,7 @@ input[type=text]:hover, input[type=password]:hover, textarea:hover, select:hover
 	column-width: 14em;
 }
 
-.readonly .middleColumn span {display: block; border: 1px solid #D3D4B6; width: 370px; padding: 3px; font-family: Arial, Verdana, sans-serif;}
+.readonly .middleColumn span {display: block; border: 1px solid #D3D4B6; padding: 3px; font-family: Arial, Verdana, sans-serif;}
 
 
 
@@ -138,18 +138,18 @@ input[type=text]:hover, input[type=password]:hover, textarea:hover, select:hover
 	text-decoration: none;
 }
 
-.mobileBrowsing form{width: 100%!important; margin-left: auto; margin-right: auto;}
-.mobileBrowsing .typography label {float: none!important; border: none!important;width: 95%!important; }
-.mobileBrowsing .middleColumn {margin-left: 0px!important;}
-.mobileBrowsing .typography .field span.message {margin-left: 0px!important; width: 95%;}
-.mobileBrowsing .typography label.right {margin-left: 0px!important; width: 95%;}
+.typography form{}
+.typography label { }
+.mobileBrowsing .middleColumn {}
+.mobileBrowsing .typography .field span.message {}
+.mobileBrowsing .typography label.right {}
 
 .mobileBrowsing .typography .middleColumn input,
 	.mobileBrowsing .typography .middleColumn textarea,
-	.mobileBrowsing .typography .middleColumn select {width: 95%;}
-.mobileBrowsing .typography .middleColumn .message {width: 95%;}
-.mobileBrowsing .typography .confirmedpassword .middleColumn a {width: 95%;}
-.mobileBrowsing .readonly .middleColumn span {width: 95%;}
+	.mobileBrowsing .typography .middleColumn select {}
+.mobileBrowsing .typography .middleColumn .message {}
+.mobileBrowsing .typography .confirmedpassword .middleColumn a {}
+.mobileBrowsing .readonly .middleColumn span {}
 
 .mobileBrowsing .typography .middleColumn,
 	.mobileBrowsing .typography .Actions,
