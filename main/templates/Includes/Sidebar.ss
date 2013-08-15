@@ -34,9 +34,9 @@
 	</p>
 	<ul>
 		<li><a href="http://www.ssmods.com/">ssmods.com</a>: our web-development services, </li>
-		<li><a href="http://www.silverstripe-ecommerce.com/">silverstripe-ecommerce.com</a>: silverstripe e-commerce demo site, </li>
-		<li><a href="http://www.silverstripe-ecommerce.com/">upgradesilverstripe.com</a>: a site for upgrading your silverstripe site to the next version, </li>
-		<li><a href="http://www.silverstripe-webdevelopment.com/">silverstripe-webdevelopment.com</a>: Silverstripe Developer stuff, and</li>
+		<li><a href="http://www.silverstripe-ecommerce.com/">silverstripe-ecommerce.com</a>: silverstripe e-commerce demo, </li>
+		<li><a href="http://www.silverstripe-ecommerce.com/">upgradesilverstripe.com</a>: helps you upgrading your silverstripe sites, </li>
+		<li><a href="http://www.silverstripe-webdevelopment.com/">silverstripe-webdevelopment.com</a>: developer stuff, and</li>
 		<li><a href="http://www.sunnysideup.co.nz/">www.sunnysideup.co.nz</a>: our <i>splash</i>.</li>
 	</ul>
 <% if RandomImage %>
