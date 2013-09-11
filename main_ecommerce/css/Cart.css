@@ -77,7 +77,7 @@ ul.productActions li a:hover, .goToCart a:hover, #ActionLinks a:hover {
 
 .cartMessage span {background-color: transparent!important}
 
-.loading { background-image: url(/ecommerce/images/loading.gif)!important; background-repeat: no-repeat!important; background-position: 95% 0!important; position: relative; z-index: 999;}
+.loading { background-image: url(/ecommerce/images/loading.gif)!important; background-repeat: no-repeat!important; background-position: 95% 0!important; position: relative; z-index: 999;  min-height: 30px!important; min-width: 30px!important; overflow: visible;}
 .loading * {visibility: hidden;}
 
 #InformationTable {width: 100%!important;}
