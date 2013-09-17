@@ -4,7 +4,6 @@
 <!--[if IE 8]>    <html class=" ie8 oldie" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="$ContentLocale"> <!--<![endif]-->
 <head>
-	<% base_tag %>
 	$ExtendedMetatags
 </head>
 <body id="Body$ClassName" class="mobileBrowsing">
