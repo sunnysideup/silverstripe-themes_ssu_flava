@@ -145,3 +145,8 @@ ul#PageComments>li {list-style-image: url("/themes/main/images/comment.png");}
 	pointer: pointer;
 }
 /***************************** END RANDOM IMAGE ******************/
+
+
+/***************************** COLORBOX ******************/
+
+#cboxClose { border: none!important}
