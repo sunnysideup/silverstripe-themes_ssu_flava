@@ -29,7 +29,7 @@
 		}
 		.typography .middleColumn .message{}
 
-.typography label.required {display: block; color: #298599; font-size: 0.8em;}
+.typography label.required {display: block; color: #398599; font-size: 0.8em;}
 
 /* exceptions */
 .typography .radio, .typography .checkbox{width: auto!important;}
@@ -38,20 +38,20 @@
 
 .typography .confirmedpassword .middleColumn {margin-left: 0px;}
 .typography .confirmedpassword .middleColumn a{display: block; }
-.typography .confirmedpassword .middleColumn .middleColumn {margin-left: 120px;}
+.typography .confirmedpassword .middleColumn .middleColumn {margin-left: 130px;}
 
 .typography .fieldgroup .middleColumn {margin-left: 0px;}
 
 .typography .field span.message {font-size: 0.8em; margin-top: 7px;display: block;}
 .typography .field .middleColumn .message {margin-left: 0px;  }
 .typography span.bad, .typography span.required {color: #FF336D;}
-.typography span.good, .typography span.good {background-color: #298599; color: #fff;}
+.typography span.good, .typography span.good {background-color: #398599; color: #fff;}
 
 .typography label.right {display: block; font-size: 0.8em}
 
 /* BUTTON */
 .typography .Actions input, .typography input.action  {
-	padding-right: 20px;
+	padding-right: 30px;
 }
 .typography .middleColumn input:focus, .typography .middleColumn textarea:focus, .typography .middleColumn select:focus{
 	-webkit-box-shadow: 0px 0px 5px #FFCC33;
@@ -75,10 +75,10 @@ input[type=text], input[type=password], textarea, select {
 input[type=text]:hover, input[type=password]:hover, textarea:hover, select:hover {
 	-moz-box-shadow:
 		0px 1px 3px rgba(000,000,000,0.5),
-		inset 0px 0px 1px rgba(255,255,255,0.7);
+		inset 0px 0px 1px rgba(355,355,355,0.7);
 	-webkit-box-shadow:
 		0px 1px 3px rgba(000,000,000,0.5),
-		inset 0px 0px 1px rgba(255,255,255,0.7);
+		inset 0px 0px 1px rgba(355,355,355,0.7);
 
 }
 
@@ -131,12 +131,14 @@ input[type=text]:hover, input[type=password]:hover, textarea:hover, select:hover
 	color: #808383;
 	-moz-box-shadow:
 		0px 1px 3px rgba(000,000,000,0.5),
-		inset 0px 0px 1px rgba(255,255,255,0.7);
+		inset 0px 0px 1px rgba(355,355,355,0.7);
 	-webkit-box-shadow:
 		0px 1px 3px rgba(000,000,000,0.5),
-		inset 0px 0px 1px rgba(255,255,255,0.7);
+		inset 0px 0px 1px rgba(355,355,355,0.7);
 	text-decoration: none;
 }
+
+
 
 .typography form{}
 .typography label { }
@@ -156,3 +158,111 @@ input[type=text]:hover, input[type=password]:hover, textarea:hover, select:hover
 	.mobileBrowsing .typography input.action,
 	.mobileBrowsing .typography p.ForgotPassword,
 	.mobileBrowsing .typography p.checkbox {margin-left: 0px!important;}
+
+
+
+.optionset li {padding: 10px!important;}
+
+.optionset li label {
+	display: inline;
+	width: 75%!important;
+}
+
+.optionset li input, .field.checkbox input{
+	display: none;
+}
+
+.optionset li input + label, .field.checkbox input + label {
+	background-color: #fafafa;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 18px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+}
+
+.optionset li input + label:active, .optionset li input:checked + label:active. , .field.checkbox input + label:active, .field.checkbox input:checked + label:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.optionset li input:checked + label, .field.checkbox input:checked + label {
+	background-color: #FFCC33;
+	border: 1px solid #808383;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #808383!important;
+}
+
+.optionset li:hover input + label, .field.checkbox:hover input + label {
+	border: 1px solid #808383;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #808383!important;
+}
+
+.optionset li input:checked + label:after, .field.checkbox input:checked + label:after,
+.optionset li:hover input + label:after, .field.checkbox:hover input + label:after  {
+	content: '\2714';
+	font-size: 28px;
+	position: absolute;
+	top: 0px;
+	left: 6px;
+	color: #808383;
+}
+
+
+
+
+/* RADIO */
+
+.optionset li input[type='radio'] {
+	display: none;
+}
+
+.optionset li input[type='radio'] + label {
+	-webkit-appearance: none;
+	background-color: #fafafa;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 16px;
+	border-radius: 50px;
+	display: inline-block;
+	position: relative;
+}
+
+.optionset li input[type='radio']:checked + label:after, .optionset li:hover input[type='radio'] + label:after {
+	content: ' ';
+	width: 12px;
+	height: 12px;
+	border-radius: 50px;
+	position: absolute;
+	top: 17px;
+	background: #808383;
+	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+	text-shadow: 0px;
+	left: 3px;
+	font-size: 32px;
+}
+
+.optionset li input[type='radio']:checked + label {
+	background-color: #FFCC33;
+	color: #808383;
+	border: 1px solid #808383;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
+}
+.optionset li:hover input[type='radio'] + label {
+	color: #808383;
+	border: 1px solid #808383;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.optionset li input[type='radio'] + label:active, .optionset li input[type='radio']:checked + label:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+
+.optionset li input[type='radio'] + label:after {
+	width: 24px;
+	height: 24px;
+	left: 4px;
+	top: 4px;
+}
