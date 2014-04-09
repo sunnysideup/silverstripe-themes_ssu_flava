@@ -266,3 +266,5 @@ input[type=text]:hover, input[type=password]:hover, textarea:hover, select:hover
 	left: 4px;
 	top: 4px;
 }
+
+.field.checkbox label {width: 94%!important;}
