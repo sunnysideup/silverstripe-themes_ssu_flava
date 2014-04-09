@@ -49,6 +49,7 @@ ul.productActions li a, .goToCart a, a.selectVariation, #ActionLinks a {
 .inCart .addLink {display: none!important;}
 .inCart .removeLink {display: block!important;}
 .inCart .goToCheckoutLink {display: block!important;}
+.inCart .ajaxBuyableRemove .removeLink {color: transparent;}
 
 #Sidebar .goToCart a {
 	font-size: 11px;

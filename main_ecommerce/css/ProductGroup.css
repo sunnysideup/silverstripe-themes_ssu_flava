@@ -72,7 +72,7 @@ td.price {text-align: right;}
 }
 .productList .inCart.productActions .ajaxBuyableRemove {
 	position: absolute;
-	top: 0;
+	top: 37px;
 	right: 10px;
 	display: block;
 	width: 13px!important;
