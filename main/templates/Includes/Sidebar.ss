@@ -41,7 +41,7 @@
 	</ul>
 <% if RandomImage %>
 	<p>
-		For those of you who prefer pictures over boring websites, here is one:
+		Random surprise:
 	</p>
 	<div id="RandomVisualThought" style="background-image: url($RandomImage.URL); width: 200px; height: 200px;" rel="$RandomImage.URL"></div>
 <% end_if %>
