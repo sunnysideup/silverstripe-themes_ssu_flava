@@ -15,6 +15,7 @@
 	overflow-x: hidden;
 }
 
+.filterAndDisplayLinksHolder .current,
 .sortOptions .current{
 	text-decoration:none;
 	font-weight:bold;
