@@ -4,8 +4,8 @@
 .typography h1 {color: #FFCC33; font-size: 1.77em; line-height: 0.85em; text-transform: uppercase;}
 	.typography h1#PageTitle, .typography h1.pageTitle{margin-top: 0!important; padding-top: 0!important; }
 .typography h2 {color: #FF336D; font-size: 1.33em; }
-.typography h3 {color: #298599; font-size: 1em;font-size: 1em;}
-.typography h4{font-size: 1em;font-weight: bold; color: #326874}
+.typography h3 {font-size: 1em;font-weight: bold; color: #326874}
+.typography h4{color: #298599; font-size: 1em;font-size: 1em;}
 .typography h5{font-size: 1em; }
 .typography h6{font-size: 0.87em; color: #326874; text-decoration: underline;}
 .typography h1:first-child,.typography h2:first-child,.typography h3:first-child,.typography h4:first-child,.typography h5:first-child,.typography h6:first-child {margin-top: 0px; padding-top: 0px;}
