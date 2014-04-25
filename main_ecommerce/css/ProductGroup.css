@@ -158,3 +158,11 @@ ul.displayStyledefault {padding: 10px; margin: 0px;}
 	column-count: 1;
 	column-gap: 0;
 }
+
+
+.fullList li {list-style: none; clear: both; list-style-image: none;}
+.fullListRow {border-bottom: 1px dotted #ccc; height: 1.2em;}
+.fullListRow a, .fullListRow span.price {width: auto; display: block;  background-color: #fff; padding-bottom: 7px;}
+.fullListRow a {float: left; padding-right: 1em;}
+.fullListRow span.price {float: right; padding-left: 1em;}
+
