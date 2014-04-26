@@ -35,7 +35,7 @@
 	<ul>
 		<li><a href="http://www.ssmods.com/">ssmods.com</a>: our web-development services, </li>
 		<li><a href="http://www.silverstripe-ecommerce.com/">silverstripe-ecommerce.com</a>: silverstripe e-commerce demo, </li>
-		<li><a href="http://www.silverstripe-ecommerce.com/">upgradesilverstripe.com</a>: helps you to upgrade your silverstripe sites, </li>
+		<li><a href="http://www.upgradesilverstripe.com/">upgradesilverstripe.com</a>: helps you to upgrade your silverstripe sites, </li>
 		<li><a href="http://www.silverstripe-webdevelopment.com/">silverstripe-webdevelopment.com</a>: some developer notes, and</li>
 		<li><a href="http://www.sunnysideup.co.nz/">www.sunnysideup.co.nz</a>: our <i>splash</i>.</li>
 	</ul>
