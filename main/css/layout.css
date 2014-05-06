@@ -102,6 +102,7 @@ ul#PageComments>li {list-style-image: url("/themes/main/images/comment.png");}
 	-moz-border-radius-bottomright: 30px;
 	border-bottom-right-radius: 2px;
 	background-color: #808383;
+	color: #fff;
 }
 
 .resultsBar, .pageNumbers {font-size: 12px;
