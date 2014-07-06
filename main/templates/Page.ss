@@ -4,7 +4,7 @@
 <!--[if IE 8]>    <html class=" ie8 oldie" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="$ContentLocale"> <!--<![endif]-->
 <head>
-	$ExtendedMetatags
+	<!-- ExtendedMetatags -->
 </head>
 <body id="Body$ClassName" class="mobileBrowsing">
 <div id="Wrapper">
@@ -20,7 +20,7 @@
 		</div>
 	</div>
 </div>
-<% include TemplateOverviewPageDevelopmentFooter %>
-<% include Analytics %>
+<!-- include TemplateOverviewPageDevelopmentFooter -->
+<!-- include Analytics -->
 </body>
 </html>
