@@ -4,7 +4,11 @@
 <!--[if IE 8]>    <html class=" ie8 oldie" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="$ContentLocale"> <!--<![endif]-->
 <head>
+<% if HasNoExtendedMetatags %>
+	$ExtendedMetaTags
+<% else %>
 	<!-- ExtendedMetatags -->
+<% end_if %>
 </head>
 <body id="Body$ClassName" class="mobileBrowsing">
 <div id="Wrapper">
