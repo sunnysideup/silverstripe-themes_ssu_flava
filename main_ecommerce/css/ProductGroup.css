@@ -9,7 +9,7 @@
 #ProductGroup {
 }
 
-.menuChildGroupsList li {clear: both;}
+#MenuChildGroupsList li {clear: both;}
 
 .category {
 	overflow-x: hidden;
