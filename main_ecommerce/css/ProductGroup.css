@@ -9,17 +9,30 @@
 #ProductGroup {
 }
 
-#MenuChildGroupsList li {clear: both;}
 
 .category {
 	overflow-x: hidden;
 }
 
-.filterAndDisplayLinksHolder .current,
-.sortOptions .current{
+.filterSortDisplayAndSearch .current {
 	text-decoration:none;
 	font-weight:bold;
 }
+.filterSortDisplayAndSearch a.open {
+	color: #FF336D;
+}
+.filterSortDisplayAndSearch ul.open {
+	background-color: #D3D4B6; padding: 20px;
+}
+
+#MenuChildGroupsList li {clear: both;}
+#FilterForList li {
+ display: inline;
+}
+#FilterForList li:after {
+	content: ", ";
+}
+
 
 .productList{
 	padding:0;
