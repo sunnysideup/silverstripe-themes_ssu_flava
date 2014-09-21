@@ -15,6 +15,7 @@
 #MethodFields_PayPalPayment {margin-left: 270px}
 #MethodFields_PayPalPayment img {display: inline-block; float: none; margin-left: 0px; margin-right: 10px}
 .checkoutStepPrevNextHolder { position: relative; padding-bottom: 20px; padding-top: 20px; }
+.checkoutStepPrevNextHolder.prev { display: none; }
 .checkoutStepPrevNextHolder a {display: block;}
 .checkoutStepPrevNextHolder a:hover {display: block;}
 .next a {position: absolute; right: 0px;}
@@ -36,10 +37,12 @@
 .noLongerInUse {display: inline-block; float: right; width: 20%;}
 
 
-#Checkout h2.orderStepHeading {margin-top:70px;}
+#Checkout h2.orderStepHeading {margin-top:30px;}
 #OrderFormAddressHolder form {padding-top: 0px;}
  {padding-top: 0px;}
 
 .productImage {float: left; margin-right: 1em;}
 
 #ContentHolder {clear: both; padding-top: 3em;}
+
+#Address2 {margin-top: -30px;}

@@ -11,7 +11,7 @@
 
 .dropdownOption h3 a {float: left; width: auto; margin-right: 2%; display: block;}
 .dropdownOption h3 a.open {float: none; }
-
+.searchResultsChildGroups {clear: left; padding-top: 2em;}
 
 .category {
 	overflow-x: hidden;
@@ -34,12 +34,32 @@
 }
 .filterSortDisplayAndSearch form {margin: 0; padding: 0;}
 
-#MenuChildGroupsList li {clear: both;}
-#FilterForList li {
- display: inline;
+#MenuChildGroupsList li {clear: both; list-style: none;}
+#FilterForList {
+	overflow: hidden;
 }
-#FilterForList li:after {
-	content: ", ";
+#FilterForList li {
+ display: block;
+ width: 32%;
+ float: left;
+}
+.mobileBrowsing #FilterForList li {
+ display: block;
+ width: 49%;
+ float: left;
+}
+#FilterForList li:nth-child(3+1) {
+clear: left;
+}
+.mobileBrowsing  #FilterForList li:nth-child(3+1) {
+clear: none;
+}
+.mobileBrowsing #FilterForList li:nth-child(2+1) {
+clear: left;
+}
+#FilterForList li a.current {
+	color: #ff336d;
+	text-decoration: none!important;
 }
 
 
@@ -163,6 +183,8 @@ ul.displayStyledefault {padding: 10px; margin: 0px;}
 .displayStyledefault .productItem h3 a:hover {border-bottom: 1px solid transparent;}
 .displayStyledefault .priceDisplay  {text-align: center; font-size: 0.8em; margin: 0; padding: 0px}
 .displayStyledefault .productActions  a {display: block; width: 101px; margin-right: auto; margin-left: auto;}
+
+.sortAndListLinks a.current {color: #ff336d; text-decoration: none!important;}
 
 .menuChildGroups ul, #Products ul {
 	-moz-column-count: 1;
