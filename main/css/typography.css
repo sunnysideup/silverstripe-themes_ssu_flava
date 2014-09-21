@@ -97,7 +97,7 @@
 	.typography a:link{text-decoration: underline;}
 	.typography a:visited{text-decoration: none; }
 	.typography a:focus {outline: none;}
-	.typography a:hover{border-bottom: 1px dotted #FF336D; text-decoration: none; color: #FF336D;}
+	.typography a:hover{text-decoration: none; color: #FF336D;}
 	.typography a:active{color: red;}
 	.typography a.externalLink{ background:transparent url(/themes/main/images/externalLink.gif) no-repeat scroll right center; padding-right:13px; display:inline;}
 

@@ -15,12 +15,13 @@
 	<div id="Container">
 		<% include Navigation %>
  		<div id="Layout" class="typography">
+			<a href="#" class="menuButton">menu</a>
 			<% include Breadcrumbs %>
 			<div id="LayoutHolder">$Layout</div>
-			<div id="Footer">
+			<footer>
 				<span class="backToTop"><a href="#Wrapper">back to top</a></span>
 				<div id="CopyrightMessage">$SiteConfig.CopyrightNotice</div>
-			</div>
+			</footer>
 		</div>
 	</div>
 </div>

@@ -49,4 +49,24 @@
 
 
 .mobileBrowsing #Nav{margin-bottom: 30px;}
+.mobileBrowsing nav{display: none;}
 
+.menuButton {display: none;}
+.mobileBrowsing .menuButton {
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	display: block;
+	background-image: url(/themes/main/images/menu.png);
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 30px;
+	opacity: 0.5;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
+	text-indent: -99999px;
+	z-index: 999;
+}
+.mobileBrowsing .menuButton:hover {
+	opacity: 1;
+	filter: alpha(opacity=100); /* For IE8 and earlier */
+}

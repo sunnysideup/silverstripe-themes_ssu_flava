@@ -1,7 +1,7 @@
 @media print {
 	body {background-image: none!important;}
 	#Nav, aside, #Sidebar, .backToTop {display: none!important;}
-	#Layout {padding: 30px!important; width: 100%!important}
+	#Layout, footer {padding: 30px!important; width: 100%!important}
 	a:link:after {content: "(" attr(href) ")";}
 	a:link {
 		font-weight: bold;

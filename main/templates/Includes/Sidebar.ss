@@ -1,22 +1,22 @@
 
-<% if Children %>
 <div class="sidebarBox" id="SidebarChildren">
-	<h3>In the <i>$MenuTitle</i> section</h3>
-	<ul>
-		<% loop Children %><li class="$FirstLast $LinkingMode"><a href="$Link">$MenuTitle</a></li><% end_loop %>
-	</ul>
-</div>
-<% end_if %>
-
 <% if Siblings %>
-<div class="sidebarBox" id="SidebarSiblings">
-	<h3>Related pages</h3>
-	<% if Parent %><p class="parentPageInfo">Other pages in the <% with Parent %><a href="$Link">$Title</a><% end_with %> section.</p><% end_if %>
+	<h3>Sibling Pages</h3>
+	<% if Parent %>
+	<p class="parentPageInfo">Other pages in the <% with Parent %><a href="$Link">$Title</a><% end_with %> section.</p>
+	<% end_if %>
 	<ul>
 		<% loop Siblings %><li class="$FirstLast $LinkingMode"><a href="$Link">$MenuTitle</a></li><% end_loop %>
 	</ul>
-</div>
 <% end_if %>
+<% if MenuChildren %>
+	<h3>In the <i>$MenuTitle</i> section</h3>
+	<ul>
+		<% loop MenuChildren %><li class="$FirstLast $LinkingMode"><a href="$Link">$MenuTitle</a></li><% end_loop %>
+	</ul>
+<% end_if %>
+</div>
+
 
 <% if SearchForm %>
 <div class="sidebarBox" id="SidebarSearch">

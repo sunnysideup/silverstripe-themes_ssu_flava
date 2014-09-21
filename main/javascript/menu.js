@@ -6,6 +6,8 @@ jQuery("#Sidebar, #nav").hide();
 		function() {
 			//must do first!
 			windowResizer.init();
+			SSUhoverMenu.init();
+
 		}
 	);
 
@@ -14,21 +16,32 @@ jQuery("#Sidebar, #nav").hide();
 
 var SSUhoverMenu = {
 
+	init: function(){
+		jQuery(".menuButton").on(
+			"click",
+			function() {
+				jQuery("aside").slideToggle();
+				jQuery("body").toggleClass("hasMenuOverlay");
+				return false;
+			}
+		);
+	},
+
 	mobileBrowsing: true,
 	set_mobileBrowsing: function(b) {this.mobileBrowsing = b;},
 	animateIn: {opacity: "1"},
 	animateOut: {opacity: "0.85"},
 
-	init: function() {
+	reset: function() {
+		jQuery("body").removeClass("hasMenuOverlay");
 		jQuery("#Nav").show();
 		jQuery(".hasCSSHover").removeClass("hasCSSHover");
+
 		if(this.mobileBrowsing) {
-			jQuery("#Nav").unbind("mouseenter").unbind("mouseleave");
-			jQuery("#Nav li.level1").unbind("mouseenter").unbind("mouseleave");
-			jQuery("#Nav ul li").css('left', 'auto');
-			jQuery("#Nav").animate(SSUhoverMenu.animateIn).addClass("menuIn").removeClass("menuOut");
+			jQuery("aside").hide();
 		}
 		else {
+			jQuery("aside").show();
 			jQuery("#Nav li.level1").hoverIntent(
 				{
 					over: SSUhoverMenu.menuIn,  // function = onMouseOver callback (required)
@@ -183,13 +196,13 @@ var windowResizer = {
 			jQuery("body").addClass("mobileBrowsing");
 			jQuery("#Sidebar").width(jQuery("#LayoutHolder").width()+"px").show();
 			SSUhoverMenu.set_mobileBrowsing(true);
-			SSUhoverMenu.init();
+			SSUhoverMenu.reset();
 		}
 		else {
 			jQuery("body").removeClass("mobileBrowsing");
 			jQuery("#Sidebar").width(this.standardSidebarWidth+"px").show();
 			SSUhoverMenu.set_mobileBrowsing(false);
-			SSUhoverMenu.init();
+			SSUhoverMenu.reset();
 		}
 	},
 
