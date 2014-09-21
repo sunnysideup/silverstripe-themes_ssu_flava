@@ -54,19 +54,75 @@
 .menuButton {display: none;}
 .mobileBrowsing .menuButton {
 	position: fixed;
-	top: 10px;
-	left: 10px;
+	top: 30px;
+	left: 0px;
 	display: block;
 	background-image: url(/themes/main/images/menu.png);
 	background-repeat: no-repeat;
-	height: 30px;
-	width: 30px;
-	opacity: 0.5;
-	filter: alpha(opacity=50); /* For IE8 and earlier */
+	height: 45px;
+	width: 45px;
+	opacity: 0.77;
+	filter: alpha(opacity=77); /* For IE8 and earlier */
 	text-indent: -99999px;
 	z-index: 999;
+	margin-top: -23px;
+	margin-left: -23px;
 }
 .mobileBrowsing .menuButton:hover {
 	opacity: 1;
 	filter: alpha(opacity=100); /* For IE8 and earlier */
 }
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes menuButtonAnimation {
+    0%   { right:100%; }
+    100% {right: 30px; }
+}
+
+/* Standard syntax */
+@keyframes menuButtonAnimation {
+    0%   {right:100%; }
+    100% {right: 30px; }
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes menuButtonAnimationOut {
+    0% {left:99%; }
+    100%   { left:0px; }
+}
+
+/* Standard syntax */
+@keyframes menuButtonAnimationOut {
+    0% {left:99%; }
+    100%   {left:0px; }
+}
+
+
+.mobileBrowsing.hasMenuOverlay .menuButton {
+	/* Chrome, Safari, Opera */
+	-webkit-animation-name: menuButtonAnimation;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: ease-out;
+	-webkit-animation-delay: 0s;
+	/* Standard syntax */
+	animation-name: menuButtonAnimation;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+	animation-delay: 0s;
+	right: 30px;
+	left: auto!important;
+}
+.mobileBrowsing .menuButton {
+	/* Chrome, Safari, Opera */
+	-webkit-animation-name: menuButtonAnimationOut;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: ease-out;
+	-webkit-animation-delay: 0s;
+	/* Standard syntax */
+	animation-name: menuButtonAnimationOut;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+	animation-delay: 0s;
+	left: 0px;
+}
+

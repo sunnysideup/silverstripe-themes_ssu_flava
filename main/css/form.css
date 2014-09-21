@@ -172,7 +172,7 @@ input[type=text]:hover, input[type=password]:hover, textarea:hover, select:hover
 
 
 
-.optionset li {padding: 10px!important;}
+.optionset li {padding: 0px!important; margin: 0px!important; padding-bottom: 10px!important;}
 
 .optionset li label {
 	display: inline;
