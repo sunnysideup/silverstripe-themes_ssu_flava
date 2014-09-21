@@ -55,7 +55,7 @@ ul.productActions li a, .goToCart a, a.selectVariation, #ActionLinks a {
 	font-size: 11px;
 }
 
-ul.productActions li a:hover, .goToCart a:hover, #ActionLinks a:hover {
+ul.productActions li a:hover, .goToCart a:hover {
 	color: #FF336D;
 	-moz-box-shadow:
 		0px 1px 3px rgba(000,000,000,0.5),

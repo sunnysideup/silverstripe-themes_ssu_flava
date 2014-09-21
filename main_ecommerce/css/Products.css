@@ -20,8 +20,6 @@
 #Product {}
 
 
-.item4, .item7, .item10, .item13, .item16, .item19, .item22 {clear: left;}
-
 li.featured .productTitle, li.featured .productTitle a {color: #FF336D!important;}
 
 .productDetails img {float: right;}
