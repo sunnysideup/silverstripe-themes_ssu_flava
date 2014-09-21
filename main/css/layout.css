@@ -110,14 +110,14 @@ ul#PageComments>li {list-style-image: url("/themes/main/images/comment.png");}
 footer {clear: both; padding-top: 300px; }
 .backToTop {float: right; padding-bottom: 10px; font-size: 10px;}
 .backToTop a{ text-decoration: none!important;}
-#CopyrightMessage {border-top: 1px solid #d6dbdb;clear: right; }
+#CopyrightMessage {border-top: 1px solid #cfd4d4;clear: right; }
 #CopyrightMessage p{font-size: 10px;}
 
 .sidebarBox form {margin: 0px!important; padding: 0px!important;}
 .sidebarBox .middleColumn, input.action {margin-left: 0px!important;}
 .sidebarBox .middleColumn input{width: 90%!important;}
 
-#SidebarChildren li a, #SidebarSiblings li a {display: block; padding: 5px; text-decoration: none; border-bottom: 1px solid #f0f0f0; font-size: 88%;}
+#SidebarChildren li a, #SidebarSiblings li a {display: block; padding: 5px; text-decoration: none; border-bottom: 1px solid #fafafa; font-size: 88%;}
 #SidebarChildren li a:hover, #SidebarSiblings li a:hover {
   -webkit-border-bottom-right-radius: 5px;
   border-bottom-right-radius: 5px;

@@ -98,7 +98,7 @@
 	.typography a:visited{text-decoration: none; }
 	.typography a:focus {outline: none;}
 	.typography a:hover{text-decoration: none; color: #FF336D;}
-	.typography a:active{color: red;}
+	.typography a:active{color: #ff336d;}
 	.typography a.externalLink{ background:transparent url(/themes/main/images/externalLink.gif) no-repeat scroll right center; padding-right:13px; display:inline;}
 
 /* images */

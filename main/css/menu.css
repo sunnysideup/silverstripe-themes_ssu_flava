@@ -6,7 +6,7 @@
 		#Nav li a {font-size: 1.9em;color: #fff; text-decoration: none; display: block;}
 			#Nav li a:hover, #Nav li.current a, #Nav li.section a {color: #FFCC33;}
 				#Nav li.current li.link a, #Nav li.section  li.link  a {color: #D3D4B6;}
-				#Nav li.current li.link a:hover, #Nav li.section  li.link  a:hover {color: #000;}
+				#Nav li.current li.link a:hover, #Nav li.section  li.link  a:hover {color: #454747;}
 	#Nav ul {bottom: 3.9em; background-color: #298599; width: 100%; display: none; position: absolute; padding-top: 7px; left: 0px;}
 		#Nav ul li { display: block; float: none; text-align: left; }
 			#Nav ul li.first {}
