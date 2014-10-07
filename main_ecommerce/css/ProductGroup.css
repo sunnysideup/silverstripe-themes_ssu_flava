@@ -246,3 +246,6 @@ ul.displayStyledefault {padding: 10px; margin: 0px;}
 	ul li.productItem:nth-child(2n) {margin-right: 0px!important;}
 .productList .productActions li {max-width: 100%;}
 }
+
+
+p.noProductsFound {clear: both; margin-top: 100px;}
