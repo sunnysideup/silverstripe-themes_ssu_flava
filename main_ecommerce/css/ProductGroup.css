@@ -9,9 +9,19 @@
 #ProductGroup {
 }
 
-.dropdownOption h3 a {float: left; width: auto; margin-right: 2%; display: block;}
-.dropdownOption h3 a.open {float: none; }
-.searchResultsChildGroups {clear: left; padding-top: 2em;}
+.filterSortSearchHeaders li {
+	list-style: none;
+	display: inline;
+	overflow: hidden;
+}
+
+.filterSortSearchHeaders li:before {
+	content: " | ";
+}
+
+.filterSortSearchHeaders li:first-child:before {
+	content:"";
+}
 
 .category {
 	overflow-x: hidden;
@@ -32,6 +42,9 @@
   -moz-border-radius-bottomright: 5px;
   margin: 1%;
 }
+
+#MenuChildGroupsList ul {overflow: auto;}
+
 .filterSortDisplayAndSearch form {margin: 0; padding: 0;}
 
 #MenuChildGroupsList li {clear: both; list-style: none;}
@@ -249,3 +262,21 @@ ul.displayStyledefault {padding: 10px; margin: 0px;}
 
 
 p.noProductsFound {clear: both; margin-top: 100px;}
+
+#ProductGroup.loading {
+  display: block;
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  /* IE 5-7 */
+  filter: alpha(opacity=50);
+  /* Netscape */
+  -moz-opacity: 0.5;
+  /* Safari 1.x */
+  -khtml-opacity: 0.5;
+  /* Good browsers */
+  opacity: 0.5;
+}
+
+#ProductGroup.loading * {
+	visibility: visible;
+}
