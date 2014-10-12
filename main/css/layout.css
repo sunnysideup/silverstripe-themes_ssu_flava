@@ -126,7 +126,7 @@ footer {clear: both; padding-top: 300px; }
 	color: #fff;
 }
 
-.resultsBar, .pageNumbers {font-size: 12px;
+.resultsBar, .pageNumbers, .filterSortDisplayAndSearch {font-size: 12px;
 	background-color: #D3D4B6;
 	/* gradient */
 	background-position:0px center;

@@ -10,7 +10,7 @@
 			.typography .optionset label.left, .typography .checkboxset label.left{border: 0;}
 
 	.typography .field{width: 100%; padding-bottom: 0.8em;padding-top: 0.8em; clear: left;}
-		.typography .middleColumn, .typography .Actions,.typography input.action, .typography p.ForgotPassword, .typography p.checkbox {display: block; }
+		.typography .middleColumn, .typography .Actions,.typography input.action, .typography p.ForgotPassword, .typography p.checkbox {display: block;  text-align: left;}
 			.typography .middleColumn input, .typography .middleColumn textarea, .typography .middleColumn select{border: 1px solid #D3D4B6; padding: 3px; font-family: Arial, Verdana, sans-serif; margin-top: 0px; width: 98%; color: #808383; font-weight: bold;}
 			.typography .middleColumn textarea{margin-top: 0px;}
 			.typography .middleColumn ul{margin-left: 0!important; padding-left: 0!important; margin-top: 0px; padding-top: 0px;}
