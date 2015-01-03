@@ -39,6 +39,7 @@
 		</div>
 	</div>
 </div>
+<% require javascript('framework/thirdparty/jquery/jquery.js') %>
 <!-- include TemplateOverviewPageDevelopmentFooter -->
 <!-- include Analytics -->
 </body>
