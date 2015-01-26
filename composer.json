@@ -19,6 +19,6 @@
 		"sunnysideup/mysite_ssu_flava": "dev-master"
 	},
 	"extra": {
-		"installer-name": "mysite"
+		"installer-name": "themes"
 	}
 }
