@@ -20,6 +20,7 @@
 	<% require themedCSS('typography') %>
 	<% require themedCSS('form') %>
 	<% require themedCSS('layout') %>
+	<% require javascript('framework/thirdparty/jquery/jquery.js') %>
 	<link rel="shortcut icon" href="$ThemeDir/images/favicon.ico" />
 	<% end_if %>
 <% end_if %>
@@ -39,7 +40,7 @@
 		</div>
 	</div>
 </div>
-<% require javascript('framework/thirdparty/jquery/jquery.js') %>
+
 <!-- include TemplateOverviewPageDevelopmentFooter -->
 <!-- include Analytics -->
 </body>
