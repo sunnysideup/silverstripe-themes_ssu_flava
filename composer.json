@@ -1,6 +1,6 @@
 {
 	"name": "sunnysideup/themes_ssu_flava",
-	"type": "silverstripe-module",
+	"type": "silverstripe-theme",
 	"description": "basic mysite folder for Silverstripe",
 	"homepage": "http://www.silverstripe-webdevelopment.com",
 	"keywords": ["themes", "theme", "template", "basic", "silverstripe", "install", "boilerplate"],
