@@ -19,8 +19,5 @@
 	},
 	"suggest": {
 		"sunnysideup/mysite_ssu_flava": "dev-master"
-	},
-	"extra": {
-		"installer-name": "themes"
 	}
 }
