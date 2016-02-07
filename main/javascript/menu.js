@@ -22,6 +22,12 @@ var SSUhoverMenu = {
 			function() {
 				jQuery("aside").slideToggle();
 				jQuery("body").toggleClass("hasMenuOverlay");
+				if(jQuery("body").hasClass("hasMenuOverlay")) {
+					jQuery("nav#MainMenu").prependTo("aside");
+				}
+				else {
+					jQuery("nav#MainMenu").prependTo("Container");
+				}
 				return false;
 			}
 		);

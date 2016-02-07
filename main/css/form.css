@@ -2,7 +2,7 @@
 	.typography fieldset{}
 		.typography div.field {}
 
-	.typography label {font-size: 0.8em;width: 95%;}
+	.typography label {}
 	.typography li label, .typography p label {font-size: 0.8em;}
 		.typography label.FormHeading{display: block; color: #808383; font-weight: bold; margin-bottom: 1em;}
 		.typography label.left{display: block; }
@@ -11,7 +11,13 @@
 
 	.typography .field{width: 100%; padding-bottom: 0.8em;padding-top: 0.8em; clear: left;}
 		.typography .middleColumn, .typography .Actions,.typography input.action, .typography p.ForgotPassword, .typography p.checkbox {display: block;  text-align: left;}
-			.typography .middleColumn input, .typography .middleColumn textarea, .typography .middleColumn select{border: 1px solid #D3D4B6; padding: 3px; font-family: Arial, Verdana, sans-serif; margin-top: 0px; width: 98%; color: #808383; font-weight: bold;}
+			.typography .middleColumn input, .typography .middleColumn textarea, .typography .middleColumn select{
+				border: 1px solid #D3D4B6;
+				padding: 0.5em; font-family: Arial, Verdana, sans-serif; margin-top: 0px; width: calc(100% - 1em); color: #808383; font-weight: bold;
+				max-width: 450px;
+				transition: all 0.5s ease 0s;
+				-webkit-transition: all 0.5s ease 0; /* Safari */	
+			}
 			.typography .middleColumn textarea{margin-top: 0px;}
 			.typography .middleColumn ul{margin-left: 0!important; padding-left: 0!important; margin-top: 0px; padding-top: 0px;}
 			.typography .middleColumn li{list-style: none!important; margin-top: 0px; padding-top: 0px;}
@@ -40,7 +46,7 @@
 
 /* exceptions */
 .typography .radio, .typography .checkbox{width: auto!important;}
-.typography .checkbox  label.right {display: block; margin-left: 0px; font-size: 1em; text-align: left; line-height: 1;}
+.typography .checkbox  label.right {display: block; margin-left: 0px; font-size: 1em; text-align: left; line-height: 1; max-width: calc(450px - 26px);}
 .typography .checkbox  input {float: left; margin-top: 0px;}
 
 .typography .confirmedpassword .middleColumn {margin-left: 0px;}
@@ -49,7 +55,7 @@
 
 .typography .fieldgroup .middleColumn {margin-left: 0px;}
 
-.typography .field span.message {font-size: 0.8em; margin-top: 7px;display: block;}
+.typography .field span.message {font-size: 0.8em; margin-top: 7px;display: block;max-width: 458px;}
 .typography .field .middleColumn .message {margin-left: 0px;  }
 .typography span.bad, .typography span.required {color: #FF336D;}
 .typography span.good, .typography span.good {background-color: #298599; color: #fff;}
@@ -65,6 +71,7 @@
 	-moz-box-shadow: 0px 0px 5px #FFCC33;
 	box-shadow: 0px 0px 5px #FFCC33;
 	color: #FF336D;
+	outline: none!important;
 }
 
 .typography .Actions input.action {margin-left: 0px;}
@@ -74,7 +81,7 @@
 
 
 /* shadow */
-input[type=text], input[type=password], textarea, select {
+input[type=text], input[type=email], input[type=password], textarea, select {
   -webkit-border-bottom-right-radius: 5px;
   border-bottom-right-radius: 5px;
   -moz-border-radius-bottomright: 5px;
@@ -83,16 +90,12 @@ input[type=text], input[type=password], textarea, select {
 	/* For IE 5.5 - 7 */
 	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#D3D4B6');
 }
-input[type=text]:hover, input[type=password]:hover, textarea:hover, select:hover {
-	-moz-box-shadow:
-		0px 1px 3px rgba(000,000,000,0.5),
-		inset 0px 0px 1px rgba(355,355,355,0.7);
-	-webkit-box-shadow:
-		0px 1px 3px rgba(000,000,000,0.5),
-		inset 0px 0px 1px rgba(355,355,355,0.7);
 
+input[type=email], input[type="text"], input[type="password"], textarea, select { border: 1px solid; border-color: #888888 #bbbbbb #e0e0e0;background: white;
+ -moz-box-shadow:inset 0px 0px 5px #e0e0e0;
+ -webkit-box-shadow:inset 0px 0px 5px #e0e0e0;
+ box-shadow:inset 0px 0px 5px #e0e0e0;
 }
-
 
 .optionset .middleColumn ul, .checkboxset .middleColumn ul {
 	-moz-column-width: 14em;
@@ -100,7 +103,7 @@ input[type=text]:hover, input[type=password]:hover, textarea:hover, select:hover
 	column-width: 14em;
 }
 
-.readonly .middleColumn span {display: block; border: 1px solid #D3D4B6; padding: 3px; font-family: Arial, Verdana, sans-serif;}
+.readonly .middleColumn span {display: block; border: 1px solid #D3D4B6; padding: 3px; font-family: Arial, Verdana, sans-serif; max-width: 450px;}
 
 
 
@@ -176,7 +179,8 @@ input[type=text]:hover, input[type=password]:hover, textarea:hover, select:hover
 
 .optionset li label {
 	display: inline;
-	width: 75%!important;
+	width: calc(100% - 42px);
+	max-width: 425px;
 }
 
 /** hide the input itself **/

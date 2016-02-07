@@ -50,6 +50,7 @@
 
 .mobileBrowsing #Nav{margin-bottom: 30px;}
 .mobileBrowsing nav{display: none;}
+.hasMenuOverlay nav{display: block!important;}
 
 .menuButton {display: none;}
 .mobileBrowsing .menuButton {
@@ -76,13 +77,13 @@
 /* Chrome, Safari, Opera */
 @-webkit-keyframes menuButtonAnimation {
     0%   { right:100%; }
-    100% {right: 30px; }
+    100% {right: 90%; }
 }
 
 /* Standard syntax */
 @keyframes menuButtonAnimation {
     0%   {right:100%; }
-    100% {right: 30px; }
+    100% {right: 90%; }
 }
 
 /* Chrome, Safari, Opera */
@@ -106,10 +107,10 @@
 	-webkit-animation-delay: 0s;
 	/* Standard syntax */
 	animation-name: menuButtonAnimation;
-	animation-duration: 1s;
+	animation-duration: 0.2s;
 	animation-timing-function: ease-out;
 	animation-delay: 0s;
-	right: 30px;
+	right: 90%;
 	left: auto!important;
 }
 .mobileBrowsing .menuButton {
@@ -120,7 +121,7 @@
 	-webkit-animation-delay: 0s;
 	/* Standard syntax */
 	animation-name: menuButtonAnimationOut;
-	animation-duration: 1s;
+	animation-duration: 0.2s;
 	animation-timing-function: ease-out;
 	animation-delay: 0s;
 	left: 0px;
