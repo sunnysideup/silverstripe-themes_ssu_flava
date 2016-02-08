@@ -2,16 +2,11 @@
 	<% with Screenshot %><img width="400" height="300" alt="$Title.ATT" src="$Link"/><% end_with %>
 </a>
 <div class="portFolioItem">
-
 	<span class="notes">
-		<% if NoLongerAvailable %>
-			<a href="#" class="webPortfolioShowMore" rel="WebPortfolioItem$ID">This site</a> (for $Client) is no longer available.
+		<% if NotPubliclyAvailable %>
+		<a href="#" class="webPortfolioShowMore" rel="WebPortfolioItem$ID">This site</a> (for $Client) is not publicly available.
 		<% else %>
-			<% if NotPubliclyAvailable %>
-			<a href="#" class="webPortfolioShowMore" rel="WebPortfolioItem$ID">This site</a> (for $Client) is not publicly available.
-			<% else %>
-			<a href="#" class="webPortfolioShowMore" rel="WebPortfolioItem$ID">$WebAddress</a> (for $Client)
-			<% end_if %>
+		<a href="#" class="webPortfolioShowMore" rel="WebPortfolioItem$ID">$WebAddress</a> (for $Client)
 		<% end_if %>
 		<% if Notes %> - $Notes<% end_if %>
 	</span>
@@ -58,7 +53,7 @@
 	<% end_if %>
 
 	<span class="visit">
-		<% if NoLongerAvailable %>
+		<% if NoLongerActive %>
 		<strong>Visit:</strong> site has been changed significantly since our involvement
 		<% else %>
 			<% if NotPubliclyAvailable %>
