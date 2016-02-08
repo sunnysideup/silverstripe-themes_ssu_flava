@@ -1,29 +1,3 @@
 
-/** timeline **/
-#storyjs, #timeline-embed {background-color: #326874; }
 
-.webPortfolioItemOuter span{font-size: 0.77em; line-height: 1.4; font-family: 'Pontano Sans',sans-serif !important;}
-.webPortfolioItemOuter span strong{font-weight: bold!important;}
-.webPortfolioItemOuter img{margin-left: 10px!important;}
-.timenav-background {background-image: url("/themes/main/images/pat.png");}
-#timeline-outer .slider-item, #timeline-outer .slider-item strong, #timeline-outer .slider-item a  {color:  #D3D4B6;}
-.slider-item h3 {color: #FFCC33!important;}
-.timenav-line {background-color:#326874!important; }
-.flag h3 {color: #326874;}
-.active .flag h3, .flag.zFront h3 {color: #FFCC33!important;}
-.vmm-timeline .navigation .timenav .content .marker.active .line,
-	.vmm-timeline .navigation .timenav .content .marker.active .dot
-	{background-color: #326874!important;}
-.nav-container .icon {opacity:0.3;filter:alpha(opacity=30);}
-.nav-container .date {display: none;}
 
-.screenshotLink {display: block; float: right!important;}
-
-#timeline-outer .slider .nav-previous, #timeline-outer  .slider .nav-next {
-	color: #298599;
-	font-size: 11px;
-}
-
-#timeline-outer .slider .slider-item .content .content-container .text .container h2.date {color:  #D3D4B6;}
-
-.screenshotLink img {width:250px!important;}
