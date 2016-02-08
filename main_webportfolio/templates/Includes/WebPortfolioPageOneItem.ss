@@ -1,5 +1,5 @@
 <a class="screenshotPopup" href="$Screenshot.Link" rel="prettyPhoto" title="website for $WebAddress">
-	<% with Screenshot.SetWidth(500) %><img width="500" height="376" alt="$Title.ATT" src="$Link"/><% end_with %>
+	<% with Screenshot %><img width="400" height="300" alt="$Title.ATT" src="$Link"/><% end_with %>
 </a>
 <div class="portFolioItem">
 
