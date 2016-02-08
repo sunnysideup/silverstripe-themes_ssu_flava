@@ -59,7 +59,7 @@
 
 	<span class="visit">
 		<% if SubstantiallyChangedByNewProvider %>
-		<strong>Visit:</strong> <a href="$WebAddress.URL">$WebAddress.URL</a> - site has been changed significantly since our involvement
+		<strong>Visit:</strong> site has been changed significantly since our involvement
 		<% else %>
 		<% if NoLongerAvailable %>
 		<% else %>
