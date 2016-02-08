@@ -58,16 +58,13 @@
 	<% end_if %>
 
 	<span class="visit">
-		<% if SubstantiallyChangedByNewProvider %>
-		<strong>Visit:</strong> site has been changed significantly since our involvement
-		<% else %>
 		<% if NoLongerAvailable %>
+		<strong>Visit:</strong> site has been changed significantly since our involvement
 		<% else %>
 			<% if NotPubliclyAvailable %>
 			<% else %>
 			<strong>Visit:</strong> <a href="$WebAddress.URL">$WebAddress.URL</a>
 			<% end_if %>
-		<% end_if %>
 		<% end_if %>
 	</span>
 
