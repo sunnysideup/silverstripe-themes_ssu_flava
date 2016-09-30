@@ -100,6 +100,7 @@ ul.productActions:after {
 }
 
 #Products li.productItem {
+    position: relative;
     box-sizing: border-box;
     float: left;
     display: inline;
@@ -108,6 +109,10 @@ ul.productActions:after {
     list-style-type: none;
 }
 
+#Products li.productItem .productTitle {
+    margin-bottom: 0;
+    padding-bottom: 0
+}
 #Products li.productItem a:hover {
     border-bottom: 0px;
 }
@@ -120,8 +125,19 @@ ul.productActions:after {
 
 #Products li.productItem a span {font-size: 85%;}
 
+#Products li.productItem .priceDisplay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background-color: #C80000;
+    color: #fff;
+}
+
 #Products li.productItem .productActions {
     margin: 0;
+    margin-top: -10px;
+    margin-bottom: 20px;
 }
 
 #Products li.productItem .productActions li.removeLink a.ajaxBuyableRemove,
@@ -153,6 +169,18 @@ ul.productActions:after {
 #cboxContent table ul li a { margin: 5px; }
 
 .btn, .action {border: none!important;}
+
+#Product {
+    position: relative;
+}
+#Product .priceDisplay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #C80000;
+    color: #fff;
+}
 
 @media screen and (max-width: 767px){
     #ProductGroup.withSidebar {
