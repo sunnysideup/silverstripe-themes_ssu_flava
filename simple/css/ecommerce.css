@@ -159,7 +159,13 @@ ul.productActions:after {
 .notInCart span.addLink, .inCart span.removeLink {
         display: inline!important;
 }
-
+.ajaxRemoveFromCartLink span.removeLink {
+    font-size: 0!important;
+}
+.ajaxRemoveFromCartLink span.removeLink:after{
+    content: '✖';
+    font-size: 20px!important;
+}
 
 /* pop-up stuff */
 #cboxWrapper #cboxClose {margin-top: 0px;}
