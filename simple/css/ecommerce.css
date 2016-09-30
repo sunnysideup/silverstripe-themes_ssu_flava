@@ -74,6 +74,18 @@ table.infotable tr.orderattribute {background-color: transparent;}
 
 
 /*** PRODUCT ACTIONS ***/
+ul.productActions {
+    display: block;
+    margin: 0;
+}
+
+ul.productActions:after {
+    content: ' ';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
 .productActions a.ajaxBuyableRemove {visibility: hidden; display: inline-block;}
 .productActions:hover a.ajaxBuyableRemove {visibility: visible;}
 
@@ -112,14 +124,20 @@ table.infotable tr.orderattribute {background-color: transparent;}
     margin: 0;
 }
 
-#Products li.productItem .productActions li.removeLink a.ajaxBuyableRemove {
+#Products li.productItem .productActions li.removeLink a.ajaxBuyableRemove,
+.productActions li.removeLink a.ajaxBuyableRemove  {
     position: relative;
 }
 
-#Products li.productItem .productActions li.removeLink a.ajaxBuyableRemove span.removeLink {
+#Products li.productItem .productActions li.removeLink a.ajaxBuyableRemove span.removeLink,
+.productActions li.removeLink a.ajaxBuyableRemove span.removeLink {
     position: absolute;
-    top: 15px;
+    top: 3px;
     font-size: 24px;
+}
+
+#Products li.productItem .productActions li.removeLink a.ajaxBuyableRemove span.removeLink {
+    top: 15px;
 }
 
 .notInCart span.addLink, .inCart span.removeLink {
