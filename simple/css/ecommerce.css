@@ -55,7 +55,14 @@ td.remove a:hover {border-bottom: none; }
 
 .Actions input.next {float: right!important;}
 
-.loading {background-image: url(/themes/simple/images/ajax-loader.gif)!important; background-repeat: no-repeat!important; background-position: 50% 50%!important; min-height: 30px!important; min-width: 30px!important; overflow: visible;}
+.loading {
+    background-image: url(/ecommerce/images/loading.gif)!important;
+    background-repeat: no-repeat!important;
+    background-position: 0 50%!important;
+    min-height: 32px!important;
+    min-width: 32px!important;
+    overflow: visible;
+}
 
 
 
@@ -103,6 +110,16 @@ table.infotable tr.orderattribute {background-color: transparent;}
 
 #Products li.productItem .productActions {
     margin: 0;
+}
+
+#Products li.productItem .productActions li.removeLink a.ajaxBuyableRemove {
+    position: relative;
+}
+
+#Products li.productItem .productActions li.removeLink a.ajaxBuyableRemove span.removeLink {
+    position: absolute;
+    top: 15px;
+    font-size: 24px;
 }
 
 .notInCart span.addLink, .inCart span.removeLink {
