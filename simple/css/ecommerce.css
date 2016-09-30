@@ -81,17 +81,22 @@ table.infotable tr.orderattribute {background-color: transparent;}
 }
 
 #Products li.productItem {
+    box-sizing: border-box;
     float: left;
     display: inline;
     width: 100%;
+    margin-bottom: 10px;
     list-style-type: none;
 }
 
-#Products li.productItem a {width: 182px;}
+#Products li.productItem a:hover {
+    border-bottom: 0px;
+}
 
 #Products li.productItem img {
     width: 100%;
     max-width: 100%;
+    border: none;
 }
 
 #Products li.productItem a span {font-size: 85%;}
