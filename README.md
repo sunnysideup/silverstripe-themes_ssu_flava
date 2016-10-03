@@ -1,6 +1,8 @@
 Theme
 ================================================================================
 
+<h3><strong style="color: red">CAREFUL - replaces theme folder</strong></h3>
+
 Boiler template theme for silverstripe install.
 
 The simple theme in this "module" is an altered copy of the
