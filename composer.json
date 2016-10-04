@@ -1,6 +1,6 @@
 {
     "name": "sunnysideup/themes_ssu_flava",
-    "type": "silverstripe-theme",
+    "type": "silverstripe-module",
     "description": "basic mysite folder for Silverstripe",
     "keywords": [
         "themes",
