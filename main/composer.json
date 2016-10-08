@@ -1,5 +1,5 @@
 {
-    "name": "sunnysideup/themes_ssu_flava",
+    "name": "sunnysideup/themes_ssu_flava_main",
     "type": "silverstripe-theme",
     "description": "Sunny Side Up Theme",
     "keywords": [
@@ -25,10 +25,6 @@
         "silverstripe/cms": "~3.4"
     },
     "extra": {
-        "installer-name": "themes_ssu_flava"
+        "installer-name": "main"
     }
-    ,
-    "suggest": {
-        "sunnysideup/mysite_ssu_flava": "dev-master"
-    }	    
 }
