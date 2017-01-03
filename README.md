@@ -1,52 +1,72 @@
-Theme
-================================================================================
+# Silverstripe themes ssu flava module
+[![Build Status](https://travis-ci.org/sunnysideup/silverstripe-themes_ssu_flava.svg?branch=master)](https://travis-ci.org/sunnysideup/silverstripe-themes_ssu_flava)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sunnysideup/silverstripe-themes_ssu_flava/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sunnysideup/silverstripe-themes_ssu_flava/?branch=master)
+[![codecov.io](https://codecov.io/github/sunnysideup/silverstripe-themes_ssu_flava/coverage.svg?branch=master)](https://codecov.io/github/sunnysideup/silverstripe-themes_ssu_flava?branch=master)
+![helpfulrobot](https://helpfulrobot.io/sunnysideup/themes_ssu_flava/badge)
 
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
-*_CAREFUL - replaces theme folder_*
-
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
-
-
-
-Boiler template theme for silverstripe install.
-
-The simple theme in this "module" is an altered copy of the
-Silverstripe Simple theme (https://github.com/silverstripe-themes/silverstripe-simple).
-
-We have added it to this theme folder not because it is our work,
-but to make it easier for developers to make a start in using sunnysideup/ecommerce.
-
-If you would like to add your theme to this collection then please contact the author.
+[![Latest Stable Version](https://poser.pugx.org/sunnysideup/themes_ssu_flava/version)](https://packagist.org/packages/sunnysideup/themes_ssu_flava)
+[![License](https://poser.pugx.org/sunnysideup/themes_ssu_flava/license)](https://packagist.org/packages/sunnysideup/themes_ssu_flava)
+[![Monthly Downloads](https://poser.pugx.org/sunnysideup/themes_ssu_flava/d/monthly)](https://packagist.org/packages/sunnysideup/themes_ssu_flava)
 
 
-Copyright
------------------------------------------------
+## Documentation
+
+
+
+ * [Developer Docs](docs/en/INDEX.md)
+ * [User Guide](docs/en/userguide.md)
+ * [API](http://ssmods.com/apis/themes_ssu_flava/docs/en/api/)
+
+## Requirements
+
+
+
+see [composer.json](composer.json) for details
+
+### Suggested Modules
+
+
+
+see [composer.json](composer.json) for details
+
+
+## Installation
+
+
+```
+composer require sunnysideup/themes_ssu_flava
+```
+
+### Configuration
+
+
+
+In the `_config` folder you will find the `themes_ssu_flava.yml.example`
+file that shows options for the configuration of this module.
+
+We recommend that you:
+
+  1. copy these `themes_ssu_flava.yml.example` files into your
+`mysite/_config` folder
+  2. remove the .example extension
+  3. delete the lines you not care about, and
+  4. adjust the configurations that you would like to use.
+
+
+## Contributing
+
+
+
+We welcome any contributions. See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
+
+## Paid assistance
+
+
+
+You can pay us to create an improved / adapted version of this module for your own projects.  Please contact us if you like to find out more: [www.sunnysideup.co.nz](http://www.sunnysideup.co.nz)
+
+## Author
+
+
+
 Sunny Side Up Ltd.
-
-
-Developer
------------------------------------------------
-Nicolaas Francken [at] sunnysideup.co.nz
-
-
-Requirements
------------------------------------------------
-see composer.json
-
-
-Documentation
------------------------------------------------
-This code base is for ideas only.  The copyright belongs to
-Sunny Side Up ltd.
-
-Installation Instructions
------------------------------------------------
-use composer
-
-```
-    require sunnysideup/themes_ssu_flava
-```
-
-SVN (externals) or git (submodules) are also available of course.
